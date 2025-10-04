@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linktree Custom</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+      padding: 15px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 30px 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin: 0 auto 20px auto;
+      border-radius: 50%;
+      background: #fff;
+      padding: 5px;
+    }
+
+    h1 {
+      margin: 0 0 10px 0;
+      font-size: 1.7em;
+      color: #fff;
+    }
+
+    p {
+      font-size: 1em;
+      opacity: 0.9;
+      margin-bottom: 25px;
+    }
+
+    .link {
+      display: block;
+      background: #fff;
+      color: #333;
+      text-decoration: none;
+      padding: 14px;
+      border-radius: 12px;
+      margin: 10px 0;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    .link:hover {
+      background: #00c6ff;
+      color: #fff;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+    }
+
+    footer {
+      margin-top: 25px;
+      font-size: 0.8em;
+      opacity: 0.8;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 25px 15px;
+      }
+      h1 {
+        font-size: 1.4em;
+      }
+      .link {
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://jobseekindonesia.com/assets/img/illustration.png" alt="Logo" class="logo" />
+    <h1>Selamat Datang!</h1>
+    <p>Pilih link di bawah untuk bergabung & daftar layanan kami</p>
+
+    <a href="https://t.me/+BJvRzUrgMe1jYWU1" class="link">📢 Join Telegram</a>
+    <a href="https://wa.me/6285226151402" class="link">📩 Pasang Loker</a>
+    <a href="https://wa.me/6285226151402" class="link">📚 Daftar Tutor Kedokteran & UTBK</a>
+    <a href="https://wa.me/6285226151402" class="link">🌏 Daftar Kerja ke Jepang</a>
+    <a href="https://www.jobseekindonesia.com" class="link">💼 Loker Jobseek Indonesia</a>
+
+    <footer>© |2025 Jobseek Indonesia </footer>
+  </div>
+</body>
+</html>
